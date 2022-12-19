@@ -47,11 +47,11 @@ int main(){
     }
     
     
-    cout <<"bilangan yang tidak apat dibagi (3,5,7) : " << endl;
+    cout <<"bilangan yang habis dibagi (3,5,7) : " << endl;
 
     for(x = 0; x <bris ; x++){
      	for(y = 0; y <klom ; y++){
-      		if(a[x][y] % 3 != 0 && a[x][y] % 5 != 0 && a[x][y] % 7 != 0) {
+      		if(a[x][y] % 3 == 0 || a[x][y] % 5 == 0 || a[x][y] % 7 == 0) {
         		cout <<setw(3)<<a[x][y] << " ";
         }
     }
@@ -69,20 +69,21 @@ Nim : 1227050079
 ===================================================================
 Masukan nilai baris :3
 Masukan nilai kolom :2
-Baris 1 kolom - 1 : 2
-Baris 1 kolom - 2 : 3
+Baris 1 kolom - 1 : 10
+Baris 1 kolom - 2 : 12
 
-Baris 2 kolom - 1 : 4
-Baris 2 kolom - 2 : 5
+Baris 2 kolom - 1 : 20
+Baris 2 kolom - 2 : 6
 
-Baris 3 kolom - 1 : 6
-Baris 3 kolom - 2 : 7
+Baris 3 kolom - 1 : 8
+Baris 3 kolom - 2 : 9
 
  Hasil
-  2   3
-  4   5
-  6   7
-bilangan yang tidak apat dibagi (3,5,7) :
-  2
-  4
+ 10  12
+ 20   6
+  8   9
+bilangan yang habis dibagi (3,5,7) :
+ 10  12
+ 20   6
+  9
 ```
