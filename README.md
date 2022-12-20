@@ -6,7 +6,7 @@
 <br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
-PROGRAM BARI DAN KOLOM DIBAGI HABIS 3,5,7
+PROGRAM BARIS DAN KOLOM DIBAGI HABIS 3,5,7 :
 Program pada kali ini mengenai program untuk menginput sebuah nilai kedalam baris serta kolom dalam matriks yang diproses nilai tersebut yang dimana
 aka dibagi dengan akan yang telah ditentukan (3,5,7) sehingga akan menghasilkan nilai yang habis dibagi oleh angka 3,5,7.
 ## Source Code
